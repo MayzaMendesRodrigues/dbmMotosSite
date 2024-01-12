@@ -110,13 +110,44 @@ Hero
 
 - **Descrição:** é um componente de seção principal que apresenta um título, um subtítulo e um CustomButton. Ideal para destacar informações importantes na página inicial.
 
-  
+Uso  
 
  ```bash 
 <Hero/>
 ```
 
 
+Navbar
+ 
+
+- **Descrição:**  Navbar é um componente de navegação que inclui um logotipo e um CustomButton para contato.
+
+Uso  
+
+ ```bash 
+<Navbar/>
+```
+
+
+Seachbar
+ 
+
+- **Descrição:**  SearchManuFacturer utiliza a biblioteca Headless UI para criar um combobox personalizado, permitindo a busca por fabricantes de motos.
+
+Uso  
+
+ ```bash 
+<SearchManuFacturer
+  manufacturer={valorFabricante}
+  setManufacturer={funcaoDefinirFabricante}
+/>
+
+```
+
+Propriedades
+
+- **manufacturer**: Valor atual do fabricante selecionado.
+- **setManufacturer**:  Função para atualizar o fabricante selecionado.
 
 
 
